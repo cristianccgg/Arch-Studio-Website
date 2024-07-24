@@ -5,7 +5,7 @@ import map from "/public/images/contact/tablet/image-map.png";
 
 export const Contact = () => {
   return (
-    <div className="mb-[192px]">
+    <div className="relative mb-[192px]">
       <div className="max-h-[375px] w-full">
         <img
           className="object-cover max-h-[375px] w-full"
@@ -20,7 +20,7 @@ export const Contact = () => {
           below or give us a call. We have two offices, one in Texas and one in
           Tennessee. If you find yourself nearby, come say hello!
         </p>
-        <hr className="border-lightGrey border my-10  w-16" />
+        <hr className="border-lightGrey border my-10 w-16" />
         <div className="flex flex-col gap-8">
           <h1 className="text-4xl font-bold">
             Contact <br />
@@ -48,8 +48,18 @@ export const Contact = () => {
           </div>
         </div>
       </div>
-      <img className="mt-[71px] h-[375px]" src={map} alt="map" />
-      <form className="px-10 mt-[73px] flex flex-col gap-8 relative" action="#">
+      {/* Contenedor para el mapa */}
+      <div className="relative mt-16">
+        <img
+          className="absolute inset-0 w-full h-[375px] object-cover"
+          src={map}
+          alt="map"
+        />
+      </div>
+      <form
+        className="px-10 mt-[500px] flex flex-col gap-8 relative"
+        action="#"
+      >
         <h1 className="text-4xl font-bold">
           Connect <br />
           with us
