@@ -13,8 +13,14 @@ import { Contact } from "./components/Contact";
 
 const Home = () => (
   <>
+    <div className="relative">
+      <div className="hidden sm:flex gap-5 text-lightGrey items-center rotate-90 absolute -top-12 -left-44">
+        <hr className="w-[104px]" />
+        <h1 className="tracking-[18px]">HOME</h1>
+      </div>
+    </div>
     <Slide />
-    <hr className="border-lightGrey border my-16 ml-10 w-16" />
+    <hr className="border-lightGrey border my-16 ml-10 w-16 sm:hidden" />
     <Welcome />
     <Small />
     <Featured />
@@ -24,7 +30,7 @@ const Home = () => (
 function App() {
   return (
     <Router>
-      <div className="font-leagueSpartan sm:ml-[164px]">
+      <div className="relative font-leagueSpartan sm:px-[98px] lg:px-[165px] max-w-[1440px] mx-auto overflow-hidden">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -32,8 +38,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 }

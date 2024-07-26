@@ -16,12 +16,16 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="flex sm:w-[504px] gap-20 items-center sm:mt-[56px] justify-between p-[32px]">
+    <div className="flex sm:w-[488px] gap-20 sm:gap-[94px] items-center sm:mt-[56px] sm:justify-start justify-between sm:px-0 p-[32px] relative">
       <Link to="/">
-        <img className="w-16 md:w-auto" src={logo} alt="logo" />
+        <img
+          className="w-[96px] h-[40px] object-contain md:w-auto"
+          src={logo}
+          alt="logo"
+        />
       </Link>
       <div className="hidden sm:block">
-        <div className="flex gap-10 font-bold text-[18px]">
+        <div className="flex gap-[61px] font-bold text-[18px]">
           <Link to="/portfolio">Portfolio</Link>
           <Link to="/about" className="text-nowrap">
             About Us

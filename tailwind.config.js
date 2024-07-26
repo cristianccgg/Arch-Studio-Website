@@ -17,9 +17,14 @@ export default {
       backgroundImage: {
         "slide-mobile": "url('/images/home/mobile/image-hero-paramour.jpg')",
         "small-mobile": "url('/images/home/mobile/image-small-team.jpg')",
+        "small-desktop": "url('/images/home/desktop/image-small-team.jpg')",
         "sol-mobile": "url('/images/portfolio/mobile/image-del-sol.jpg')",
+        "sol-desktop": "url('/images/portfolio/desktop/image-del-sol.jpg')",
         "228b-mobile": "url('/images/portfolio/mobile/image-228b.jpg')",
+        "228b-desktop": "url('/images/portfolio/desktop/image-228b.jpg')",
         prototype: "url('/images/portfolio/mobile/image-prototype.jpg')",
+        "prototype-desktop":
+          "url('/images/portfolio/desktop/image-prototype.jpg')",
         "trinity-mobile": "url('/images/portfolio/mobile/image-trinity.jpg')",
         "seraph-mobile": "url('/images/portfolio/mobile/image-seraph.jpg')",
         "paramount-mobile":
