@@ -16,7 +16,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="flex sm:w-[488px] gap-20 sm:gap-[94px] items-center sm:mt-[56px] sm:justify-start justify-between sm:px-0 p-[32px] relative">
+    <div className="flex sm:w-[504px] gap-20 sm:gap-[94px] items-center sm:mt-[56px] sm:justify-start justify-between sm:px-0 p-[32px] relative">
       <Link to="/">
         <img
           className="w-[96px] object-cover md:w-auto"
