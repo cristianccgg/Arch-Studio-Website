@@ -25,7 +25,7 @@ export const Portfolio = () => {
   return (
     <div>
       <div className="gap-[24px] flex flex-col lg:grid lg:grid-cols-3 mt-[48px] text-white px-10 sm:px-0 relative">
-        <div className="hidden sm:flex gap-5 text-lightGrey items-center rotate-90 absolute -top-5 -left-60">
+        <div className="hidden sm:flex gap-5 text-lightGrey items-center rotate-90 absolute -top-8 -left-60">
           <hr className="w-[104px]" />
           <h1 className="tracking-[18px]">PORTFOLIO</h1>
         </div>

@@ -8,6 +8,10 @@ import mapDesktop from "/public/images/contact/desktop/image-map.png";
 export const Contact = () => {
   return (
     <div className="relative mb-[192px]">
+      <div className="hidden md:flex gap-5 text-lightGrey items-center rotate-90 absolute -top-2 -left-56">
+        <hr className="w-[104px]" />
+        <h1 className="tracking-[18px]">CONTACT</h1>
+      </div>
       <div className="max-h-[375px] sm:max-h-[720px] w-full relative">
         <img
           className="object-cover max-h-[375px] w-full md:hidden"

@@ -42,7 +42,7 @@ export const Navbar = () => {
           alt="icon-hamburger"
         />
         {openMenu && (
-          <div className="absolute bg-veryLightGrey w-3/4 mt-8 right-0 p-8 items-start flex flex-col gap-5 font-black text-[18px]">
+          <div className="absolute bg-veryLightGrey w-3/4 mt-10 right-0 p-8 items-start flex flex-col gap-5 font-black text-[18px]">
             <Link to="/portfolio" onClick={closeMenu}>
               Portfolio
             </Link>

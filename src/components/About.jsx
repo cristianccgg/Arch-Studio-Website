@@ -7,7 +7,7 @@ import { Leaders } from "/src/components/Leaders.jsx";
 export const About = () => {
   return (
     <div className="relative">
-      <div className="hidden md:flex gap-5 text-lightGrey items-center rotate-90 absolute top-3 -left-56">
+      <div className="hidden md:flex gap-5 text-lightGrey items-center rotate-90 absolute top-0 -left-56">
         <hr className="w-[104px]" />
         <h1 className="tracking-[18px]">ABOUT US</h1>
       </div>
@@ -24,7 +24,7 @@ export const About = () => {
         />
         <div className=" bg-black opacity-40 absolute inset-0 h-full md:w-[573px]"></div>
         <div className="hidden md:flex flex-col gap-5  lg:w-[600px] bg-white w-[515px] h-[431px] self-end ps-10 md:absolute bottom-0 right-0 xl:left-[482px] lg:right-0 justify-between">
-          <h1 className="text-[120px] text-end text-veryLightGrey font-bold w-96  absolute -top-1/2 translate-y-32 lg:left-40 lg:-translate-y-0 lg:text-[250px] left-1/2 -translate-x-1/2">
+          <h1 className="text-[120px] text-end text-veryLightGrey font-bold w-96  absolute -top-1/2 translate-y-32 lg:left-32 lg:-translate-y-0 lg:text-[250px] left-1/2 -translate-x-1/2">
             About
           </h1>
           <div className="flex flex-col justify-between lg:w-[446px] self-end gap-12 lg:gap-8">
