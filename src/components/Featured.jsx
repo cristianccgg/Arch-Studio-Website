@@ -9,7 +9,7 @@ export const Featured = () => {
         <h1 className="text-5xl font-bold">Featured</h1>
         <Link
           to="/portfolio"
-          className="bg-veryDarkBlue hidden p-4 font-bold text-2xl sm:flex items-center text-white gap-4"
+          className="bg-veryDarkBlue hidden p-4 font-bold text-2xl sm:flex items-center text-white gap-4 hover:bg-darkGrey"
         >
           <h1>See all</h1>
           <img src={arrow} alt="arrow" />
@@ -24,7 +24,9 @@ export const Featured = () => {
           {/* Contenido */}
           <div className="relative z-20 w-[200px] p-[24px]">
             <h1 className="text-4xl text-nowrap font-bold">Project Del Sol</h1>
-            <p className="text-2xl text-nowrap">View All Projects</p>
+            <Link to="/portfolio">
+              <p className="text-2xl text-nowrap">View All Projects</p>
+            </Link>
           </div>
         </div>
         <div className="bg-228b-mobile lg:bg-228b-desktop bg-no-repeat bg-cover h-[311px] lg:h-[560px] sm:h-[240px] content-end relative">
@@ -33,7 +35,9 @@ export const Featured = () => {
           {/* Contenido */}
           <div className="relative z-20 w-[200px] p-[24px]">
             <h1 className="text-4xl text-nowrap font-bold">228B Tower</h1>
-            <p className="text-2xl text-nowrap">View All Projects</p>
+            <Link to="/portfolio">
+              <p className="text-2xl text-nowrap">View All Projects</p>
+            </Link>
           </div>
         </div>
         <div className="bg-prototype lg:bg-prototype-desktop bg-no-repeat hue-rotate-30 bg-cover h-[311px] lg:h-[560px] sm:h-[240px] content-end relative">
@@ -42,12 +46,14 @@ export const Featured = () => {
           {/* Contenido */}
           <div className="relative z-20 w-[200px] p-[24px]">
             <h1 className="text-4xl text-nowrap font-bold">Le Prototype</h1>
-            <p className="text-2xl text-nowrap">View All Projects</p>
+            <Link to="/portfolio">
+              <p className="text-2xl text-nowrap">View All Projects</p>
+            </Link>
           </div>
         </div>
         <Link
           to="/portfolio"
-          className="bg-veryDarkBlue sm:hidden py-4 font-bold text-2xl flex items-center justify-center gap-4"
+          className="bg-veryDarkBlue sm:hidden py-4 font-bold text-2xl flex items-center justify-center gap-4 hover:bg-darkGrey"
         >
           <h1>See all</h1>
           <img src={arrow} alt="arrow" />

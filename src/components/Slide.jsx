@@ -32,7 +32,7 @@ export const Slide = () => {
               </p>
             </div>
             <Link to="/portfolio" className="z-30">
-              <button className="bg-veryDarkBlue py-5 px-10 flex gap-3 items-center">
+              <button className="bg-veryDarkBlue py-5 px-10 flex gap-3 items-center hover:bg-darkGrey">
                 <h1>See Our Portfolio</h1>
                 <img src={arrow} alt="" />
               </button>
@@ -43,7 +43,7 @@ export const Slide = () => {
               return (
                 <div
                   key={img.id}
-                  className={` w-[80px] h-[80px] flex items-center justify-center text-[18px] font-bold cursor-pointer ${
+                  className={` w-[80px] h-[80px] flex items-center hover:bg-veryLightGrey justify-center text-[18px] font-bold cursor-pointer ${
                     currentIndex === index
                       ? "bg-veryDarkBlue text-white"
                       : "text-black bg-white"
@@ -72,7 +72,7 @@ export const Slide = () => {
             </p>
           </div>
           <Link to="/portfolio">
-            <button className="bg-veryDarkBlue py-5 px-10 flex gap-3 items-center">
+            <button className="bg-veryDarkBlue py-5 px-10 flex gap-3 items-center hover:bg-darkGrey">
               <h1>See Our Portfolio</h1>
               <img src={arrow} alt="" />
             </button>

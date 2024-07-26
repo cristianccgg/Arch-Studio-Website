@@ -12,7 +12,10 @@ export const Small = () => {
           <br />
           big ideas
         </h1>
-        <Link to={"/about"} className="bg-black px-10 py-4 flex gap-4 w-fit">
+        <Link
+          to={"/about"}
+          className="bg-black px-10 py-4 flex gap-4 w-fit hover:bg-darkGrey"
+        >
           <h1>About Us</h1>
           <img src={arrow} alt="" />
         </Link>

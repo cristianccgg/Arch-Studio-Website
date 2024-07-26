@@ -42,7 +42,7 @@ export const Footer = () => {
         </Link>
         <Link
           to="/portfolio"
-          className="bg-black xl:absolute xl:-right-32 text-white py-5 px-10 w-fit text-nowrap text-2xl sm:text-xl flex items-center justify-center gap-5"
+          className="bg-black xl:absolute hover:bg-darkGrey xl:-right-32 text-white py-5 px-10 w-fit text-nowrap text-2xl sm:text-xl flex items-center justify-center gap-5"
         >
           <h1>See Our Portfolio</h1>
           <img src={arrow} alt="" />
